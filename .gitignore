@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.pnpm-store/
+.DS_Store
+__MACOSX/
+._*
+.publication-audit/
+releases/
+*.log
+.env
+.env.*
+!.env.example

@@ -1,0 +1,12 @@
+{
+  "name": "DeckBridge",
+  "id": "1676182142000707139",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma", "slides"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}

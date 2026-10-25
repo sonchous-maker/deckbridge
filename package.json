@@ -1,0 +1,28 @@
+{
+  "name": "deckbridge",
+  "version": "0.1.0",
+  "description": "Export Figma frames to editable PowerPoint and import PPTX files into Figma layers.",
+  "license": "MIT",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "package": "node scripts/build.mjs && node scripts/update-notices.mjs && node scripts/package.mjs"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "pptxgenjs": "^4.0.1"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.100.2",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.3"
+  }
+}

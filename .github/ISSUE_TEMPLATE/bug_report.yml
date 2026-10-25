@@ -1,0 +1,28 @@
+name: Conversion bug
+description: Report an import, export, or interface problem.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the expected result and what you actually saw.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Plugin version, OS, Figma Design or Slides, and PowerPoint version.
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample and warnings
+      description: Include warnings, font names, or screenshots. Share files only if you have permission; remove confidential content first.
